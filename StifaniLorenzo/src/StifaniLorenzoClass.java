@@ -23,8 +23,8 @@ public class StifaniLorenzoClass {
 		int fatt;
 		int i;
 		fatt = 1;
-		for (i = 0; i <= n; i++) {
-			fatt = fatt + i;
+		for (i = 1; i <= n; i++) {	//facciamo partire la i da 1, ovvero il primo numero da moltiplicare
+			fatt = fatt * i;	//non bisogna addizionare la i, ma moltiplicare fatt*i
 		}
 		return fatt;
 	}
